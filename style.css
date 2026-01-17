@@ -1,0 +1,241 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f7fa;
+    height: 100vh;
+}
+
+/* Container untuk memastikan konten di tengah */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Card untuk konten utama */
+.card {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+.header {
+    background-color: #1a5276;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Login Form Styles */
+.login-form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #1a5276;
+    outline: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a5276;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0e3d5a;
+}
+
+.error-message {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Result Page Styles */
+.student-info {
+    margin-bottom: 25px;
+    text-align: left;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.student-info p {
+    margin-bottom: 8px;
+}
+
+.result-status {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status-pass {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status-fail {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.status-not-found {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.result-message {
+    margin-bottom: 25px;
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+}
+
+.btn-logout {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.btn-logout:hover {
+    background-color: #5a6268;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .card {
+        max-width: 100%;
+    }
+    
+    .title {
+        font-size: 1.6rem;
+    }
+    
+    .main-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .title {
+        font-size: 1.4rem;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .form-group input {
+        padding: 10px;
+    }
+    
+    .btn-login, .btn-logout {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .result-status {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+}
