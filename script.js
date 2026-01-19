@@ -1,15 +1,23 @@
 // Data siswa (hardcode)
 const studentData = [
-    { username: "andi123", name: "Andi Pratama", status: "pass" },
-    { username: "budi456", name: "Budi Santoso", status: "fail" },
-    { username: "cindy789", name: "Cindy Putri", status: "pass" },
-    { username: "david321", name: "David Wijaya", status: "pass" },
-    { username: "eka654", name: "Eka Susanti", status: "fail" },
-    { username: "fajar987", name: "Fajar Hidayat", status: "pass" },
-    { username: "gita147", name: "Gita Permata", status: "pass" },
-    { username: "hadi258", name: "Hadi Nugroho", status: "fail" },
-    { username: "ina369", name: "Ina Marlina", status: "pass" },
-    { username: "joko741", name: "Joko Widodo", status: "pass" }
+    { username: "0432", name: "AHMAD MUHAIMIN", status: "pass" }, //lolos
+    { username: "0442", name: "IRFAN ANDHIO", status: "pass" }, //lolos
+    { username: "0443", name: "AZKA FADHIL MUBAROK", status: "pass" }, //lolos
+    { username: "0444", name: "MUHAMMAD TIRTA WIDIANZAKKA", status: "pass" }, //lolos
+    { username: "0446", name: "BOBY ADITYA ERIANSYAH", status: "pass" }, //lolos
+    { username: "0447", name: "MIKO RAHMAN SAHPUTRA", status: "pass" }, //lolos
+    { username: "0450", name: "AFANDY PUTRA IRAWAN", status: "pass" }, //lolos
+    { username: "0458", name: "KEVIN EKA DENI SAPUTRA", status: "pass" }, //lolos
+    { username: "0459", name: "MIRZA AFLAH REZKY PRABOWO", status: "pass" }, //lolos
+    { username: "0461", name: "MOCHAMAD JUAN RAFANDA YUSWADI", status: "pass" }, //lolos
+    { username: "0466", name: "ILHAM WIRANATA RIZALDI", status: "pass" }, //lolos
+    { username: "0478", name: "AL AZHAR ARSHAVINZHA APDI", status: "fail" }, // gagal
+    { username: "0479", name: "RAHMAN YUSUF MAULANA", status: "pass" }, //lolos
+
+
+// fail (tidak lolos)
+// pass (lolos)
+
 ];
 
 // Fungsi untuk menangani login
@@ -57,12 +65,12 @@ function displayResult() {
         // Tampilkan status kelulusan
         if (student.status === 'pass') {
             resultStatus.className = 'result-status status-pass';
-            resultStatus.textContent = 'LOLOS SELEKSI';
-            resultMessage.textContent = 'Selamat! Anda telah dinyatakan lolos seleksi. Silakan melakukan pendaftaran ulang sesuai jadwal yang telah ditentukan.';
+            resultStatus.textContent = 'LOLOS REKOMENDASI';
+            resultMessage.textContent = 'Selamat, Anda direkomendasikan masuk di Konsentrasi Keahlian Teknik Alat Berat SMK Muhammadiyah 1 Kepanjen Tahun Pelajaran 2026/2027.';
         } else {
             resultStatus.className = 'result-status status-fail';
-            resultStatus.textContent = 'TIDAK LOLOS SELEKSI';
-            resultMessage.textContent = 'Mohon maaf, Anda belum berhasil lolos seleksi tahun ini. Jangan menyerah dan terus berusaha untuk kesempatan berikutnya.';
+            resultStatus.textContent = 'REKOMENDASI KONSENTRASI KEAHLIAN LAINNYA';
+            resultMessage.innerHTML = 'Mohon maaf, Anda tidak direkomendasikan masuk di Konsentrasi Keahlian Teknik Alat Berat, akan tetapi Anda direkomendasikan masuk pada Konsentrasi Keahhlian <b>Teknik Kendaraan Ringan (TKR)<b/>, <b>Teknik Sepeda Motor (TSM)</b>, <b>Teknik Pemesinan (TPM)</b>.';
         }
     } else {
         // Jika username tidak ditemukan
@@ -71,7 +79,7 @@ function displayResult() {
         
         resultStatus.className = 'result-status status-not-found';
         resultStatus.textContent = 'Data tidak ditemukan';
-        resultMessage.textContent = 'Username yang Anda masukkan tidak terdaftar dalam sistem kami. Silakan hubungi panitia seleksi untuk informasi lebih lanjut.';
+        resultMessage.textContent = 'Username yang Anda masukkan tidak terdaftar dalam sistem kami. Silakan hubungi panitia untuk informasi lebih lanjut.';
     }
 }
 
