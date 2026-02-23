@@ -1,18 +1,37 @@
 // Data siswa (hardcode)
 const studentData = [
-    { username: "0432", name: "AHMAD MUHAIMIN", status: "fail" }, //lolos
-    { username: "0442", name: "IRFAN ANDHIO", status: "pass" }, //lolos
-    { username: "0443", name: "AZKA FADHIL MUBAROK", status: "pass" }, //lolos
-    { username: "0444", name: "MUHAMMAD TIRTA WIDIANZAKKA", status: "pass" }, //lolos
-    { username: "0446", name: "BOBY ADITYA ERIANSYAH", status: "pass" }, //lolos
-    { username: "0447", name: "MIKO RAHMAN SAHPUTRA", status: "pass" }, //lolos
-    { username: "0450", name: "AFANDY PUTRA IRAWAN", status: "pass" }, //lolos
-    { username: "0458", name: "KEVIN EKA DENI SAPUTRA", status: "pass" }, //lolos
-    { username: "0459", name: "MIRZA AFLAH REZKY PRABOWO", status: "pass" }, //lolos
-    { username: "0461", name: "MOCHAMAD JUAN RAFANDA YUSWADI", status: "pass" }, //lolos
-    { username: "0466", name: "ILHAM WIRANATA RIZALDI", status: "pass" }, //lolos
-    { username: "0478", name: "AL AZHAR ARSHAVINZHA APDI", status: "fail" }, // gagal
-    { username: "0479", name: "RAHMAN YUSUF MAULANA", status: "pass" }, //lolos
+ //  { username: "0432", name: "AHMAD MUHAIMIN", status: "pass" }, //lolos
+  //  { username: "0442", name: "IRFAN ANDHIO", status: "pass" }, //lolos
+  //  { username: "0443", name: "AZKA FADHIL MUBAROK", status: "pass" }, //lolos
+ //   { username: "0444", name: "MUHAMMAD TIRTA WIDIANZAKKA", status: "pass" }, //lolos
+ //   { username: "0446", name: "BOBY ADITYA ERIANSYAH", status: "pass" }, //lolos
+ //   { username: "0447", name: "MIKO RAHMAN SAHPUTRA", status: "pass" }, //lolos
+//    { username: "0450", name: "AFANDY PUTRA IRAWAN", status: "pass" }, //lolos
+//    { username: "0458", name: "KEVIN EKA DENI SAPUTRA", status: "pass" }, //lolos
+//    { username: "0459", name: "MIRZA AFLAH REZKY PRABOWO", status: "pass" }, //lolos
+ //   { username: "0461", name: "MOCHAMAD JUAN RAFANDA YUSWADI", status: "pass" }, //lolos
+ //   { username: "0466", name: "ILHAM WIRANATA RIZALDI", status: "pass" }, //lolos
+ //   { username: "0478", name: "AL AZHAR ARSHAVINZHA APDI", status: "fail" }, // gagal
+ //   { username: "0479", name: "RAHMAN YUSUF MAULANA", status: "pass" }, //lolos
+
+//Gelombang 2 Tahap 1
+
+   //  { username: "0463", name: "MAULANA PANJI WARDHANA", status: "pass" },
+   //  { username: "0502", name: "MUHAMMAD ILHAM", status: "fail" },
+   //  { username: "0504", name: "REYHAN NASRUL SYAHREZA", status: "pass" },
+     { username: "0505", name: "AHMAD ALWI KHADAFI", status: "pass" },  //lolos
+     { username: "0506", name: "VERANITA AINUN PERTIWI", status: "pass" },  //lolos
+   //  { username: "0507", name: "REZKY ADITYA PRATAMA PUTRA", status: "pass" },
+     { username: "0511", name: "GHATFAN DZAKI NURFAUZAN", status: "pass" }, //lolos
+   //  { username: "0513", name: "ALDO SUBASTIAN PRATAMA", status: "pass" },
+   //  { username: "0515", name: "FAJAR DWI CAHYONO", status: "pass" },
+     { username: "0516", name: "NAUFAL 'AZZAM MUSYAFFA'", status: "pass" }, //lolos
+   //  { username: "0517", name: "FERDI UTAMA", status: "pass" },
+     { username: "0518", name: "MOCHAMMAD SAJADILLAH ALY", status: "pass" },    //lolos
+   //  { username: "0520", name: "RIFAT ALVINO ABIYU RAZIQ", status: "pass" },
+   //  { username: "0522", name: "DZULFAKOR ALFARROZ SETIAWAN", status: "pass" },
+     { username: "0523", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
+   //  { username: "0528", name: "DANDY SAPUTRA", status: "pass" },
 
 
 // fail (tidak lolos)
@@ -111,4 +130,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
