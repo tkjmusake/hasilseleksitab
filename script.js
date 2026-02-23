@@ -1,6 +1,6 @@
 // Data siswa (hardcode)
 const studentData = [
-    { username: "0432", name: "AHMAD MUHAIMIN", status: "pass" }, //lolos
+    { username: "0432", name: "AHMAD MUHAIMIN", status: "fail" }, //lolos
     { username: "0442", name: "IRFAN ANDHIO", status: "pass" }, //lolos
     { username: "0443", name: "AZKA FADHIL MUBAROK", status: "pass" }, //lolos
     { username: "0444", name: "MUHAMMAD TIRTA WIDIANZAKKA", status: "pass" }, //lolos
@@ -111,3 +111,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
