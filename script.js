@@ -19,20 +19,25 @@ const studentData = [
    //  { username: "0463", name: "MAULANA PANJI WARDHANA", status: "pass" },
    //  { username: "0502", name: "MUHAMMAD ILHAM", status: "fail" },
    //  { username: "0504", name: "REYHAN NASRUL SYAHREZA", status: "pass" },
-     { username: "0505", name: "AHMAD ALWI KHADAFI", status: "pass" },  //lolos
-     { username: "0506", name: "VERANITA AINUN PERTIWI", status: "pass" },  //lolos
+   //  { username: "0505", name: "AHMAD ALWI KHADAFI", status: "pass" },  //lolos
+   //  { username: "0506", name: "VERANITA AINUN PERTIWI", status: "pass" },  //lolos
    //  { username: "0507", name: "REZKY ADITYA PRATAMA PUTRA", status: "pass" },
-     { username: "0511", name: "GHATFAN DZAKI NURFAUZAN", status: "pass" }, //lolos
+   //  { username: "0511", name: "GHATFAN DZAKI NURFAUZAN", status: "pass" }, //lolos
    //  { username: "0513", name: "ALDO SUBASTIAN PRATAMA", status: "pass" },
    //  { username: "0515", name: "FAJAR DWI CAHYONO", status: "pass" },
-     { username: "0516", name: "NAUFAL 'AZZAM MUSYAFFA'", status: "pass" }, //lolos
+   //  { username: "0516", name: "NAUFAL 'AZZAM MUSYAFFA'", status: "pass" }, //lolos
    //  { username: "0517", name: "FERDI UTAMA", status: "pass" },
-     { username: "0518", name: "MOCHAMMAD SAJADILLAH ALY", status: "pass" },    //lolos
+   //  { username: "0518", name: "MOCHAMMAD SAJADILLAH ALY", status: "pass" },    //lolos
    //  { username: "0520", name: "RIFAT ALVINO ABIYU RAZIQ", status: "pass" },
    //  { username: "0522", name: "DZULFAKOR ALFARROZ SETIAWAN", status: "pass" },
-     { username: "0523", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
+   //  { username: "0523", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
    //  { username: "0528", name: "DANDY SAPUTRA", status: "pass" },
+       { username: "0552", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
+       { username: "0560", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
+       { username: "0563", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
 
+
+ 
 
 // fail (tidak lolos)
 // pass (lolos)
