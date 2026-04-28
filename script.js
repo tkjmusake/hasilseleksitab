@@ -32,9 +32,7 @@ const studentData = [
    //  { username: "0522", name: "DZULFAKOR ALFARROZ SETIAWAN", status: "pass" },
    //  { username: "0523", name: "IBBRA MAULANA YANUAR ARZIKY", status: "pass" }, //lolos
    //  { username: "0528", name: "DANDY SAPUTRA", status: "pass" },
-       { username: "0552", name: "DHAMAR BAARIQLANA MUHAMMAD ", status: "pass" }, //lolos
-       { username: "0560", name: "BIAS PUTRA CHAYSAFA ", status: "pass" }, //lolos
-       { username: "0563", name: "RAFKA AVRIAN CANDRA FERLIANO ", status: "pass" }, //lolos
+
 
 
  
