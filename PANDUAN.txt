@@ -1,0 +1,45 @@
+================================================================
+ PANDUAN SINGKAT - TAB 2 (Pengumuman Hasil Seleksi + Undangan PDF)
+================================================================
+
+ISI FOLDER
+- index.html        : halaman login (siswa memasukkan No. Pendaftaran)
+- hasil.html        : halaman hasil seleksi + tombol unduh surat undangan (PDF)
+- script.js         : DATA SISWA + logika program  <-- edit di sini
+- style.css         : tampilan halaman
+- assets-surat.js   : gambar kop surat, tanda tangan & font untuk PDF (jangan diubah)
+- jspdf.umd.min.js  : pustaka pembuat PDF (jangan diubah)
+
+CARA MENGINPUT NAMA BAPAK/IBU (ORANG TUA) SISWA
+1. Buka file script.js, lihat bagian "DATA SISWA" di paling atas.
+2. Isi kolom orangTua pada baris siswa yang diinginkan. Contoh:
+
+   { username: "0432", name: "AHMAD MUHAIMIN", orangTua: "SUMARNI", status: "pass" },
+
+3. Simpan file. Selesai - tidak perlu mengubah halaman lain.
+
+Nama orang tua dan nama siswa OTOMATIS muncul di surat undangan PDF
+(hanya untuk siswa yang LOLOS seleksi) pada blok penerima surat:
+
+   Yang Terhormat,
+   Bapak/Ibu          : [NAMA ORANG TUA]      <-- otomatis dari kolom orangTua
+   Orang Tua dari     : [NAMA SISWA]          <-- otomatis dari kolom name
+   Calon Murid Baru   : Tahun Pelajaran 2027/2028
+
+Nama siswa juga otomatis muncul di bagian "Nama", dan No. Pendaftaran
+di bagian "No. Pendaf" pada isi surat.
+
+KETENTUAN
+- Huruf kapital/kecil bebas saat mengisi; di surat otomatis menjadi HURUF KAPITAL.
+- Jika kolom orangTua dikosongkan (""), di surat muncul titik-titik
+  ........................ sehingga bisa diisi tangan saat undangan dibawa pulang.
+- Baris "Orang Tua/Wali" di halaman hasil hanya tampil untuk siswa yang LOLOS.
+- Tombol "Unduh Undangan Orang Tua (PDF)" hanya tampil untuk siswa yang LOLOS.
+
+CARA MENJALANKAN
+- Cukup buka index.html di browser (klik dua kali), tidak perlu internet.
+- Bila dipasang di hosting/website, upload seluruh isi folder ini seadanya.
+
+MENGUBAH DATA SURAT LAIN (jika perlu)
+- Nomor surat, tanggal, waktu, tempat undangan, nama kepala sekolah, dan
+  konsentrasi keahlian ada di bagian KONFIG_SURAT di dalam script.js.
