@@ -180,6 +180,9 @@ const studentData = [
 { username: "0418", name: "MUHAMMAD DEANDRE RAHANDIKA PUTRA", orangTua: "SUTAJI", status: "pass" },
 { username: "0419", name: "FEBRIAN SOLEH TIRTA PRATAMA", orangTua: "SISWANTO", status: "pass" },
 { username: "0420", name: "MUHAMMAD RADHITYA RIFVANTO", orangTua: "AYKA RIFVANTO", status: "pass" },
+{ username: "0422", name: "DONI TRI ATMOJO", orangTua: "SUPAT", status: "pass" },
+{ username: "0425", name: "AHMAD ARIFANDI ADE", orangTua: "AHMAD SUKER", status: "pass" },
+{ username: "0426", name: "AHMAD NURAFANDI KAKA", orangTua: "AHMAD SUKER", status: "pass" },
 
 // Contoh baris dengan nama orang tua sudah diisi:
 // { username: "0480", name: "CONTOH NAMA SISWA", orangTua: "NAMA BAPAK/IBU SISWA", status: "pass" },
